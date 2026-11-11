@@ -28,7 +28,7 @@
       ]
     ],
     "experiments": {
-      "baseUrl": "/azimut"
+      "baseUrl": "/topographie"
     },
     "splash": {
       "image": "./assets/splash-icon.png",
