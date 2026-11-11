@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Azimut",
+    "slug": "azimut",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#0B1117",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Azimut utilise ta position pour afficher tes coordonnées MGRS et la boussole."
+      }
+    },
+    "android": {
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Azimut utilise ta position pour afficher tes coordonnées MGRS et la boussole."
+        }
+      ]
+    ],
+    "experiments": {
+      "baseUrl": "/azimut"
+    },
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B1117"
+    }
+  }
+}
